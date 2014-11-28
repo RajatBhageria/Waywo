@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<html>
-<head>
-	<title>Waywo Login</title>
-</head>
-<body>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '309886869219909',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
-</body>
-</html>
-=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,30 +26,31 @@
 
   	<!--Waywo Title -->
 
-  	<section>
-  		<div class="container-fluid">
-  			<div class="row" id="waywo">
-  				<h1> WAYWO </h1>
-  				<h2> Share with the world "What Are You Working On" </h2>
-			</div>
+  	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '309886869219909',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
 
-  		</div>
-  	</section>
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
   	<!-- Top text box with What are you working on -->
-  	<section id="textbox">
-  		<div class="container">
-  			<form role="form">
-  				<div class="form-group">
-  					<center><textarea class="span6 input-large search-query" class="form-control" cols="92"rows="6" placeholder="login here"></textarea></center>
-				</div>
-
-				<div class="row">
-            		<center><button type="submit" class="btn btn-default">Share to the world</button></center>
-        		</div>
-			</form>
-		</div>
-    </section>
+  	<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+  </div>
 
     <footer>
 
@@ -92,7 +61,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
-
-
->>>>>>> FETCH_HEAD
