@@ -1,7 +1,16 @@
 h1 {
 	font-size: 10em;
 	color: white;
+}
+
+h2 {
+	font-size: 2em;
+	color: white;
+}
+
+#waywo {
 	text-align: center;
+	padding: 0 0 100px 0;
 }
 
 .form-control {
@@ -22,5 +31,5 @@ body {
 }
 
 button {
-	margin-
+	
 }
