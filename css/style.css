@@ -30,6 +30,23 @@ body {
 	background: purple;
 }
 
-button {
-	
+
+
+/* footer */
+
+footer {
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+	}
+
+ul li{
+  display: inline;
+  font: white;
 }
+
+#inc {
+	text-align: center;
+}
+
+
