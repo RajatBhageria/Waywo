@@ -37,7 +37,8 @@ body {
   height: 120px;
   width: 720px;
   position: relative;
-  background-color: #fff;
+  background-color: white;
+  opacity: 0.7;
 }
 
 .discusTitle {
