@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Treebook</title>
+  <title>Waywo</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+<body>
+	<div class="navbar navbar-default role="navigation>
+		<div class="container-fluid">
+			<div class="navbar-header"
+				<a href="#"> Waywo </a>
+				<ul class="nav">
+					<li><%= link_to "All Statuses", statuses_path %></li>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<%= yield %>
+	</div>
 
 </body>
 </html>
