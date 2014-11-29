@@ -22,42 +22,34 @@
   </head>
   
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '309886869219909',
+          xfbml      : true,
+          version    : 'v2.2'
+        });
+      };
 
-
-  	<!--Waywo Title -->
-
-  	<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '309886869219909',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
-  	<!-- Top text box with What are you working on -->
-  	<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-  </div>
-
-    <footer>
-
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
   </body>
 </html>
