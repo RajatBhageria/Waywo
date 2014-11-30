@@ -35,7 +35,7 @@ class StatusesControllerTest < ActionController::TestCase
   end
 
   test "should update status" do
-    patch :update, id: @status, status: { content: @status.content, name: @status.name }
+    put :update, id: @status, status: { content: @status.content, name: @status.name }
     assert_redirected_to status_path(assigns(:status))
   end
 

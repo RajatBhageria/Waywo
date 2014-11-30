@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.status{
+.status {
 	border-bottom: solid 1px #CCC;
 	padding: 5px 0;
 }
@@ -12,14 +12,13 @@
 }
 
 .status.hover {
-	background: #F0F0F0;
+	background: #FAFAFA;
 }
 
-.status .admin{
+.status .admin {
 	display: none;
 }
 
-.status.hover .admin{
-	display: inline; 
+.status.hover .admin {
+	display: inline;
 }
-
