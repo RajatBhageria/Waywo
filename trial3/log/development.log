@@ -7700,3 +7700,15 @@ Connecting to database specified by database.yml
   [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120724212023')
   [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120718214245')[0m
   [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120724204036')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStatuses (20120718214245)
+Migrating to DeviseCreateUsers (20120724204036)
+Migrating to AddUserIdToStatuses (20120724212023)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("statuses")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_statuses_on_user_id')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_reset_password_token')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
